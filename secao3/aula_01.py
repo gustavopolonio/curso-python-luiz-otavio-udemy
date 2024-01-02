@@ -44,9 +44,19 @@ print(ans)
 
 
 # Função input
-name = input("What's your name?")  # input sempre retorna tipo str
-print(f'Your name is {name}')
-print(f'Your name is {name=}')  # debugando variável
+# name = input("What's your name?")  # input sempre retorna tipo str
+# print(f'Your name is {name}')
+# print(f'Your name is {name=}')  # debugando variável
 
-n1 = int(input('Type a number: '))  # Não fazer a coerção de tipo diretamente na declaração da variável, pois se o user digitar uma str vai dar erro e quebrar o programa
+# n1 = int(input('Type a number: '))  # Não fazer a coerção de tipo diretamente na declaração da variável, pois se o user digitar uma str vai dar erro e quebrar o programa
 
+
+#  Operações condicionais (if / elif / else)
+entrada = input('Você quer "entrar" ou "sair"? ')
+
+if entrada == 'entrar':
+  print('Você entrou!')
+elif entrada == 'sair':
+  print('Você saiu!')
+else:
+  print('Você é indeciso?!')
