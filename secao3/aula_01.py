@@ -60,3 +60,16 @@ elif entrada == 'sair':
   print('Você saiu!')
 else:
   print('Você é indeciso?!')
+
+
+"""
+  Operadores de comparação (relacionais)
+  OP        Significado         Exemplo (todos são True)
+  >           maior               2 > 1
+  >=          maior ou igual      2 >= 2
+  <           menor               1 < 1
+  <=          menor ou igual      2 <= 2
+  ==          igual               'a' == 'a'
+  !=          diferente           'a' != 'b'
+"""
+
