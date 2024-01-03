@@ -101,3 +101,17 @@ print(bool(0.0))
 print(bool(''))
 print(bool(' '))
 print(bool(False))
+
+
+"""
+  Operadores in e not in
+  Strings são iteráveis no python
+
+  0 1 2 3 4 5 6  (índices)
+  G u s t á v o
+  -7-6-5-4-3-2-1  (índices negativos)
+"""
+name = 'Gustávo'
+print(name[4])
+print('á' in name)
+print('Gust' in name)
