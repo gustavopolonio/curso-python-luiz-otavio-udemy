@@ -90,7 +90,8 @@ entrada = 'E'
 password = '123456'
 
 correct_password = '123456'
-if entrada == 'E' and password == correct_password:
+expirated = False
+if (entrada == 'E' or entrada == 'e') and password == correct_password and not expirated:
   print('Enter')
 else:
   print('Logout')
