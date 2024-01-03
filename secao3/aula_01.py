@@ -52,7 +52,8 @@ print(ans)
 
 
 #  Operações condicionais (if / elif / else)
-entrada = input('Você quer "entrar" ou "sair"? ')
+# entrada = input('Você quer "entrar" ou "sair"? ')
+entrada = 'sair'
 
 if entrada == 'entrar':
   print('Você entrou!')
@@ -73,3 +74,29 @@ else:
   !=          diferente           'a' != 'b'
 """
 
+
+"""
+  Operadores lógicos
+  and (e)  |  or (ou)  |  not (não)
+
+  São valores falsy:  0  |  0.0  |  ''  |  False
+
+  O tipo None é usado para representar um não valor
+"""
+
+# entrada = input('[E]nter [L]ogout: ')
+entrada = 'E'
+# password = input('Your password... ')
+password = '123456'
+
+correct_password = '123456'
+if entrada == 'E' and password == correct_password:
+  print('Enter')
+else:
+  print('Logout')
+
+print(bool(0))
+print(bool(0.0))
+print(bool(''))
+print(bool(' '))
+print(bool(False))
