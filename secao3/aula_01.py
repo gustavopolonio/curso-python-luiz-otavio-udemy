@@ -115,3 +115,17 @@ name = 'Gustávo'
 print(name[4])
 print('á' in name)
 print('Gust' in name)
+
+
+"""
+  Interpolação básica de strings (faz a mesma coisa que as f-strings)
+  s - string
+  d e i - int
+  f - float
+  x e X - hexadecimal (ABCDEF0123456789)
+"""
+name = 'Gustavo'
+value = 1000.988732
+text = '%s, o preço é de %.2f' % (name, value)
+print(text)
+print('O hexadecimal de %d é: %X' % (15, 15))
