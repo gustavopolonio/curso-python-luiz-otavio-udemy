@@ -148,3 +148,17 @@ print(text[2:])
 print(text[:8])
 print(text[0:len(text):1])
 print(text[::])
+
+
+"""
+  Introdução ao try/except
+  try => tentar executar o código
+  except => ocorreu algum erro ao tentar executar o código
+"""
+number_str = input('Vou dobrar o número que você digitar: ')
+
+try:
+  number_float = float(number_str)
+  print(f'O dobro de {number_float} é {number_float * 2:.2f}')
+except:
+  print('Isso não é um número')
