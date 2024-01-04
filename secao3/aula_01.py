@@ -162,3 +162,8 @@ try:
   print(f'O dobro de {number_float} é {number_float * 2:.2f}')
 except:
   print('Isso não é um número')
+
+
+"""
+  Variáveis constantes => defino em letra maiúscula
+"""
