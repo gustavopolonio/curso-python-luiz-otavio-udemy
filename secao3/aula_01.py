@@ -129,3 +129,22 @@ value = 1000.988732
 text = '%s, o preço é de %.2f' % (name, value)
 print(text)
 print('O hexadecimal de %d é: %X' % (15, 15))
+# Usando f-strings
+print(f'O hexadecimal de 1500 é: {1500:08x}')
+
+
+"""
+  Fatiamento de strings
+  0123456789
+  Hello world
+ - (indices negativos)
+
+  Fatiamento [i:f:p] [::]   i=início f=final p=passo
+  Função len => quantidade
+"""
+text = 'Hello World'
+print(text[2:10])
+print(text[2:])
+print(text[:8])
+print(text[0:len(text):1])
+print(text[::])
