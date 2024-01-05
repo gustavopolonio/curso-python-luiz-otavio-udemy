@@ -155,7 +155,8 @@ print(text[::])
   try => tentar executar o código
   except => ocorreu algum erro ao tentar executar o código
 """
-number_str = input('Vou dobrar o número que você digitar: ')
+# number_str = input('Vou dobrar o número que você digitar: ')
+number_str = 2
 
 try:
   number_float = float(number_str)
@@ -167,3 +168,9 @@ except:
 """
   Variáveis constantes => defino em letra maiúscula
 """
+
+"""
+  Tipos imutáveis de dados = str, int, float, bool
+"""
+name = 'Gustavo'
+# name[2] = 'A'  # Erro, pois str é um tipo imutável
