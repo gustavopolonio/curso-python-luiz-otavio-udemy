@@ -115,6 +115,7 @@ name = 'Gustávo'
 print(name[4])
 print('á' in name)
 print('Gust' in name)
+print(10*'-')
 
 
 """
