@@ -184,14 +184,24 @@ counter = 0
 
 while aux:
   counter += 1
-  name = input('Qual o nome? ')
+  # name = input('Qual o nome? ')
 
   if name == 'Gus':
     continue
-  
+
   print(name)
 
-  if name == 'sair':
+  if name == 'sair' or counter == 5:
     break
 
 print(f'Saiu do while e fez {counter} laços')
+
+name = 'Gustavo Polonio'
+i = 0
+ans = ''
+while i < len(name):
+  # ans += '*' + name[i]
+  ans += f'*{name[i]}'
+  i += 1
+
+print(ans)
