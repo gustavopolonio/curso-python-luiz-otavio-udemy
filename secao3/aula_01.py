@@ -174,3 +174,24 @@ except:
 """
 name = 'Gustavo'
 # name[2] = 'A'  # Erro, pois str é um tipo imutável
+
+
+"""
+  Repteições: while
+"""
+aux = True
+counter = 0
+
+while aux:
+  counter += 1
+  name = input('Qual o nome? ')
+
+  if name == 'Gus':
+    continue
+  
+  print(name)
+
+  if name == 'sair':
+    break
+
+print(f'Saiu do while e fez {counter} laços')
