@@ -214,3 +214,17 @@ print(ans)
 text = 'Gustavo'
 for letter in text:
   print(letter)
+
+
+"""
+  For + Range
+  range => range(start, stop, step)
+"""
+numbers = range(10)  # start defaults to 0
+numbers = range(5, 10)
+numbers = range(1, 10, 2)
+
+print(numbers)
+
+for number in numbers:
+  print(number)
