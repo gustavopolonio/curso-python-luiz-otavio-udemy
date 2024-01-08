@@ -206,3 +206,11 @@ while i < len(name):
   i += 1
 
 print(ans)
+
+
+"""
+  Repetições: for / in
+"""
+text = 'Gustavo'
+for letter in text:
+  print(letter)
