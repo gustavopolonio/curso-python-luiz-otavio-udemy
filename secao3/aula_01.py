@@ -257,3 +257,19 @@ print(list_c)
 
 list_b.extend(list_a)
 print(list_b)
+
+
+"""
+  Cuidados com dados mutáveis
+  =  => copia o valor (em tipos imutáveis)
+  =  => aponta para o mesmo valor na memória (em tipos mutáveis)
+"""
+names_1 = ['Zé', 'Luiz']
+names_2 = names_1  # names_2 e names_1 apontam para o mesmo valor em memória
+names_1[1] = 'Gustavo'
+print(names_2)
+
+name1 = 'Gus'
+name2 = name1  # Tipo imutável, apenas copia
+name1 = 'Sasá'
+print(name2)
