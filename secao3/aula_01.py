@@ -287,3 +287,13 @@ print(name_1, name_2, name_3)
 name_1, *rest = ['Gustavo', 'Sabrina', 'Erick']
 print(name_1)
 print(rest)
+
+
+"""
+  Tipo tupla - É uma lista imutável
+"""
+names = ('Zé', 'Luiz')  # Posso criar a tupla assim também
+names = 'Zé', 'Luiz'
+print(names)
+print(names[1])
+# names[0] = 'Gustavo'  # Erro
