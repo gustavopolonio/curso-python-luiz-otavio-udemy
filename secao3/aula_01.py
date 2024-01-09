@@ -228,3 +228,32 @@ print(numbers)
 
 for number in numbers:
   print(number)
+
+
+"""
+  Listas em Python - Equivalente a Arrays em Javascript
+  Tipo list => é um tipo mutável
+  Métodos úteis: append, insert, pop, del, clear, extend
+"""
+my_list = [10, 'Gust', True, []]
+print(type(my_list))
+
+my_list[2] = 'Polonio'  # list é mutável
+print(my_list)
+
+del my_list[2]  # Não é performático para listas grandes. Sempre tentar trabalhar com os últimos elementos de uma lista
+print(my_list)
+
+my_list.append(1200)
+print(my_list)
+
+my_list.clear()
+print(my_list)
+
+list_a = [1, 2, 3]
+list_b = [4, 5, 6]
+list_c = list_a + list_b
+print(list_c)
+
+list_b.extend(list_a)
+print(list_b)
