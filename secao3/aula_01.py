@@ -273,3 +273,17 @@ name1 = 'Gus'
 name2 = name1  # Tipo imutável, apenas copia
 name1 = 'Sasá'
 print(name2)
+
+
+"""
+  Introdução ao desempacotamento
+"""
+name_1, name_2, name_3 = ['Gustavo', 'Sabrina', 'Erick']
+print(name_1, name_2, name_3)
+
+# name_1, name_2 = ['Gustavo', 'Sabrina', 'Erick']  # Erro!
+# name_1, name_2, name_3 = ['Gustavo', 'Sabrina']  # Erro!
+
+name_1, *rest = ['Gustavo', 'Sabrina', 'Erick']
+print(name_1)
+print(rest)
