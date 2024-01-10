@@ -297,3 +297,17 @@ names = 'Zé', 'Luiz'
 print(names)
 print(names[1])
 # names[0] = 'Gustavo'  # Erro
+
+
+"""
+  enumerate - enumera iteráveis (índices)
+"""
+names = ['Gustavo', 'Sasá', 'Alex']
+
+# for item in enumerate(names):
+#   print(item)  # Retorna uma tupla
+#   index, name = item
+#   print(f'{index=}, {name=}')
+
+for index, name in enumerate(names):  # Faz a mesma coisa do for-in com enumerate acima
+  print(f'{index=}, {name=}')
