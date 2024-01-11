@@ -325,3 +325,21 @@ num_3 = num_1 + num_2
 print(num_3)
 print(f'{num_3:.2f}')
 print(round(num_3, 2))
+
+
+"""
+  Desempacotamento em chamadas de métodos e funções
+"""
+string = 'ABCD'
+lista = ['Maria', 'Gu', 'Zé', 1]
+tupla = 'Python', 'Javscript', 'Go'
+print(*lista)  # É a mesma coisa que: print('Maria', 'Gu', 'Zé', 1)
+print(*string)
+print(*tupla)
+
+salas = [
+  ['Maria', 'Helena'],
+  ['Jorge'],
+  ['Ney']
+]
+print(*salas)
