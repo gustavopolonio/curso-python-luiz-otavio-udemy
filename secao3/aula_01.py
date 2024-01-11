@@ -343,3 +343,12 @@ salas = [
   ['Ney']
 ]
 print(*salas)
+
+
+"""
+  Operação ternária (condicional de uma linha)
+  <valor> if <condição> else <outro_valor>
+"""
+condition = 5 > 3
+isBigger = 'Maior' if condition else 'Menor'
+print(isBigger)
